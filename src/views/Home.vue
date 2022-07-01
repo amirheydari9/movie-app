@@ -6,7 +6,7 @@
              :can-cancel="false"
              :is-full-page="true"/>
 
-    <div class="bg-light mt-5 d-flex align-items-center justify-content-around p-3">
+    <div class="search-bar mt-5 d-flex align-items-center justify-content-around p-3">
       <div class="d-flex justify-content-end align-items-center">
         <span class="mr-2 d-inline-block">search by release date : </span>
         <Datepicker
@@ -96,6 +96,10 @@ export default {
 }
 </script>
 <style>
+.search-bar{
+  background-color: #e2e2e2;
+  border-radius: 8px;
+}
 .pagination-title {
   font-weight: 700;
   font-size: 16px;

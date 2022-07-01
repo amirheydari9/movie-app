@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-light mt-5 d-flex align-items-center p-3">
+    <div class="toolbar mt-5 d-flex align-items-center p-3">
       <div class="col-2 d-flex justify-content-start">
         <div class="bg-info rounded-pill text-white border-0 px-3 y-1">
           <router-link :to="{name:'Home'}">
@@ -107,6 +107,11 @@ export default {
 </script>
 
 <style scoped>
+.toolbar {
+  background-color: #e2e2e2;
+  border-radius: 8px;
+}
+
 .poster {
   border-radius: 12px;
 }
